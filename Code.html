@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game Awards 2025 - Ganadores</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1929 0%, #1e3a5f 50%, #4a90e2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .award-card {
+            background: #e3f2fd;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            animation: fadeIn 0.6s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .award-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .category {
+            color: #4a90e2;
+            font-size: 0.9em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .winner {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .winner a {
+            color: #333;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .winner a:hover {
+            opacity: 0.7;
+        }
+
+        .award-card:nth-child(1) { animation-delay: 0.1s; }
+        .award-card:nth-child(2) { animation-delay: 0.2s; }
+        .award-card:nth-child(3) { animation-delay: 0.3s; }
+        .award-card:nth-child(4) { animation-delay: 0.4s; }
+        .award-card:nth-child(5) { animation-delay: 0.5s; }
+        .award-card:nth-child(6) { animation-delay: 0.6s; }
+        .award-card:nth-child(7) { animation-delay: 0.7s; }
+        .award-card:nth-child(8) { animation-delay: 0.8s; }
+        .award-card:nth-child(9) { animation-delay: 0.9s; }
+        .award-card:nth-child(10) { animation-delay: 1.0s; }
+        .award-card:nth-child(11) { animation-delay: 1.1s; }
+        .award-card:nth-child(12) { animation-delay: 1.2s; }
+        .award-card:nth-child(13) { animation-delay: 1.3s; }
+        .award-card:nth-child(14) { animation-delay: 1.4s; }
+        .award-card:nth-child(15) { animation-delay: 1.5s; }
+        .award-card:nth-child(16) { animation-delay: 1.6s; }
+        .award-card:nth-child(17) { animation-delay: 1.7s; }
+        .award-card:nth-child(18) { animation-delay: 1.8s; }
+        .award-card:nth-child(19) { animation-delay: 1.9s; }
+        .award-card:nth-child(20) { animation-delay: 2.0s; }
+        .award-card:nth-child(21) { animation-delay: 2.1s; }
+        .award-card:nth-child(22) { animation-delay: 2.2s; }
+        .award-card:nth-child(23) { animation-delay: 2.3s; }
+        .award-card:nth-child(24) { animation-delay: 2.4s; }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .awards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Game Awards 2025</h1>
+            <p class="subtitle">Ganadores Oficiales</p>
+        </header>
+
+        <div class="awards-grid">
+            <div class="award-card">
+                <div class="category">Mejor Adaptación</div>
+                <div class="winner">
+                    <a href="https://www.hbo.com/the-last-of-us/season-2" target="_blank">The Last of Us: Temporada 2</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego Familiar</div>
+                <div class="winner">
+                    <a href="https://www.nintendo.com/us/gaming-systems/switch-2/featured-games/donkey-kong-bananza/" target="_blank">Donkey Kong Bananza</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Innovación de Accesibilidad</div>
+                <div class="winner">
+                    <a href="https://doom.bethesda.net/en-US/the-dark-ages" target="_blank">Doom: The Dark Ages</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de E-sports</div>
+                <div class="winner">
+                    <a href="https://www.counter-strike.net/cs2" target="_blank">Counter-Strike 2</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Móvil</div>
+                <div class="winner">
+                    <a href="https://umamusume.com/" target="_blank">Umamusume: Pretty Derby</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego Independiente</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Acción</div>
+                <div class="winner">
+                    <a href="https://www.supergiantgames.com/games/hades-ii/" target="_blank">Hades 2</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Rendimiento</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Juegos con Impacto Social</div>
+                <div class="winner">
+                    <a href="https://compulsiongames.com/games/south-of-midnight/" target="_blank">South of Midnight</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego en Curso</div>
+                <div class="winner">
+                    <a href="https://www.nomanssky.com/" target="_blank">No Man's Sky</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Diseño de Audio</div>
+                <div class="winner">
+                    <a href="https://www.ea.com/games/battlefield/battlefield-6" target="_blank">Battlefield 6</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Creador de Contenido del Año</div>
+                <div class="winner">
+                    <a href="https://www.twitch.tv/moistcr1tikal" target="_blank">MoistCr1TiKaL</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Lucha</div>
+                <div class="winner">
+                    <a href="https://www.snk-corp.co.jp/us/games/fatalfury-cotw/" target="_blank">Fatal Fury: City of the Wolves</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Juego Más Anticipado</div>
+                <div class="winner">
+                    <a href="https://www.rockstargames.com/VI" target="_blank">Grand Theft Auto VI</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Premio Especial</div>
+                <div class="winner">
+                    <a href="https://www.girlsmakegames.com" target="_blank">Girls Make Games</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Acción/Aventura</div>
+                <div class="winner">
+                    <a href="https://hollowknightsilksong.com/" target="_blank">Hollow Knight: Silksong</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Dirección de Arte</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Simulación/Estrategia</div>
+                <div class="winner">
+                    <a href="https://final-fantasy-tactics-the-ivalice-chronicles.square-enix-games.com/" target="_blank">Final Fantasy Tactics: The Ivalice Chronicles</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego Independiente Debut</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Música y Banda Sonora</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de Deportes/Carreras</div>
+                <div class="winner">
+                    <a href="https://www.nintendo.com/us/gaming-systems/switch-2/featured-games/mario-kart-world/" target="_blank">Mario Kart World</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Soporte a la Comunidad</div>
+                <div class="winner">
+                    <a href="https://baldursgate3.game/" target="_blank">Baldur's Gate 3</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor Juego de VR/AR</div>
+                <div class="winner">
+                    <a href="https://themidnightwalk.net/" target="_blank">The Midnight Walk</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Mejor RPG</div>
+                <div class="winner">
+                    <a href="https://www.expedition33.com/" target="_blank">Clair Obscur: Expedition 33</a>
+                </div>
+            </div>
+
+            <div class="award-card">
+                <div class="category">Voz de los Jugadores</div>
+                <div class="winner">
+                    <a href="https://wutheringwaves.kurogames.com/" target="_blank">Wuthering Waves</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>The Game Awards 2025 • Diciembre 2025</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">⚠️ Esta página no es oficial de The Game Awards</p>
+        </footer>
+    </div>
+</body>
+</html>
